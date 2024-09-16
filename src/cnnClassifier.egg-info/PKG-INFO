@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: cnnClassifier
 Version: 0.0.0
 Summary: A small python package for CNN app
-Home-page: https://github.com/Ibtesum-Sakib/Kidney-Diseases-Classification-MLFLOW
+Home-page: https://github.com/Ibtesum-Sakib/Pneumonia-DC-MLFLOW-DVC
 Author: Ibtesum-Sakib
 Author-email: ibtesum38@gmail.com
-Project-URL: Bug Tracker, https://github.com/Ibtesum-Sakib/Kidney-Diseases-Classification-MLFLOW/issues
+Project-URL: Bug Tracker, https://github.com/Ibtesum-Sakib/Pneumonia-DC-MLFLOW-DVC/issues
 
 # Pneumonia-DC-MLFLOW-DVC
 End to end Pneumonia Detection Classification with MLFLOW DV and CI/CD
