@@ -79,3 +79,35 @@ stages:
       hash: md5
       md5: 4ac1537e5d0f0369cf910aaff9e89f74
       size: 59340720
+  evaluation:
+    cmd: python src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+    deps:
+    - path: artifacts/data_ingestion/Pneumonia_data
+      hash: md5
+      md5: ade2f29f27bc3c5ee3fc30af369c6b7e.dir
+      size: 1233452367
+      nfiles: 5840
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 4ac1537e5d0f0369cf910aaff9e89f74
+      size: 59340720
+    - path: config/config.yaml
+      hash: md5
+      md5: e77b57e8565f6c2b2b5e47eed1bd5299
+      size: 881
+    - path: src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+      hash: md5
+      md5: 38e82054b6c6c719a45395de21a8d947
+      size: 957
+    params:
+      params.yaml:
+        BATCH_SIZE: 16
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+    outs:
+    - path: scores.json
+      hash: md5
+      md5: 5f7cf9383776382258b6c38f0a1b10c0
+      size: 72
