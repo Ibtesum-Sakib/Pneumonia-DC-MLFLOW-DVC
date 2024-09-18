@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data%20Science%20project/Pneumonia-DC-MLFLOW-DVC/mlruns/0/fb6250b6188f470d80c7c7697a39c3ff/artifacts
+end_time: 1726670156107
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb6250b6188f470d80c7c7697a39c3ff
+run_name: bedecked-whale-159
+run_uuid: fb6250b6188f470d80c7c7697a39c3ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726670152980
+status: 4
+tags: []
+user_id: sakib

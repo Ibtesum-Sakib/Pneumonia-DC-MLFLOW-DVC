@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data%20Science%20project/Pneumonia-DC-MLFLOW-DVC/mlruns/0/47a2d8411173445bb17aa0793a59ce1b/artifacts
+end_time: 1726669306396
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47a2d8411173445bb17aa0793a59ce1b
+run_name: bold-hog-411
+run_uuid: 47a2d8411173445bb17aa0793a59ce1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726669303422
+status: 4
+tags: []
+user_id: sakib
